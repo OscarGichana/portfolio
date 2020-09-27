@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  background-color: grey;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+h2 {
+  color: green;
+  text-align: center;
+}
+h3 {
+  color: green;
+}
+h4 {
+  color: green;
+}
+h5 {
+  color: purple;
+}
+
+.secondary {
+  font-style: italic;
+}
+.column2 {
+  background-color: green;
+  float: left;
+  width: 550px;
+  height: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.column1 {
+  background-color: grey;
+  float: left;
+  height: 250px;
+  width:550px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.row {
+  float: left;
+}
+.box {
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+}
+@media screen and (min-width:450px) and (max-width:767px) {
+  body{
+    background-color: pink;
+  }
+}
+#about {
+  background-color: grey;
+}
